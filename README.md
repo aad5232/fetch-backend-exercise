@@ -12,17 +12,18 @@
  2. Install VS Code
  3. Add Docker extension in VS Code.
  4. Open a terminal in the current directory and check docker version by using command,
+    
     docker -v
 
  Once everything is setup, run the flask application using the following commands;
 
  Build:
 
-  docker build -t <image-name> .
+  docker build -t image-name .
 
  Run:
 
-  docker run -p 5000:5000 <image-name>
+  docker run -p 5000:5000 image-name
 
 
 This will run the application, then you can verify the responses.
